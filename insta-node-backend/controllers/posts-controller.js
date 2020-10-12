@@ -12,7 +12,7 @@ class employee{
         {
             let newPost={
                 ownerId:req.body.ownerId,
-                url:req.body.url, 
+                url:req.body.url,
                 caption:req.body.caption
                   };
         

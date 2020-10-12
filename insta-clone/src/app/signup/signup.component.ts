@@ -30,8 +30,7 @@ export class SignupComponent implements AfterViewInit {
     console.log(userObj);
     this.sendReq.signMeUp(userObj).subscribe(res => this.res = res);
     console.log(this.res);
-    // if(this.res.status == '200'){
-    //   console.log("Signed UP");
-    // }
+
+    
   }
 }
